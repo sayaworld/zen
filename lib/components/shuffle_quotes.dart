@@ -59,6 +59,7 @@ class _ShuffleQuotesState extends State<ShuffleQuotes> {
         height: 160,
         width: 400,
         decoration: BoxDecoration(
+            image: Image.asset(name),
             color: Theme.of(context).colorScheme.primaryContainer,
             borderRadius: BorderRadius.circular(10)),
         child: FutureBuilder<List<dynamic>>(
